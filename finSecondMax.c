@@ -30,17 +30,6 @@ int findSecondMax(int arr[],uint8_t n)
    }
    for(uint8_t i=2;i<n;i++)
    {
-     if(fistMax==secondMax)
-     {
-       if(fistMax<arr[i])
-      {
-        //secondMax=fistMax;
-        fistMax=arr[i];
-      } 
-     }
-     else
-     {
-      
       if(fistMax<arr[i])
       {
         secondMax=fistMax;
@@ -53,7 +42,7 @@ int findSecondMax(int arr[],uint8_t n)
             secondMax=arr[i];
         }
       }
-     }
+     
    }
 
    return secondMax;

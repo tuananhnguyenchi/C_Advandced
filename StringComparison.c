@@ -40,7 +40,7 @@ int8_t StingComparison (char arr1[],char arr2[])
 }
 int main()
 {
-    char arr1[]="Hello Word!!!!";
+    char arr1[]="Hello word!!!!";
     char arr2[]="Hello word";
     //int8_t =(-10);
    // printf("%d",-10);
